@@ -1,0 +1,18 @@
+{
+  "name": "bls-helper",
+  "version": "1.0.0",
+  "description": "Create simple BLS sig stuff for ETH",
+  "license": "Apache-2.0",
+  "author": "CluEleSsUK",
+  "type": "commonjs",
+  "main": "src/index.ts",
+  "scripts": {
+    "start": "ts-node ./src/index.ts"
+  },
+  "dependencies": {
+    "@noble/curves": "^1.8.1",
+    "ethers": "^6.13.5",
+    "mcl-wasm": "^1.8.0",
+    "ts-node": "^10.9.2"
+  }
+}
